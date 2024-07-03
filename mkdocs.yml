@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: hzZeng's notebook
+
+theme:
+  name: material
+
+nav:
+  - home: index.md

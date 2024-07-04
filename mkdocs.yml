@@ -63,7 +63,11 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#meta.tags
   - tags
+
 markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
   - pymdownx.arithmatex:
@@ -100,7 +104,24 @@ markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
   - footnotes
 
+extra_css:
+  - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - css/custom.css
+  - css/card.css
+  - css/tasklist.css
+  - css/flink.css
+  - css/more_changelog.css
+  
 
+extra_javascript:
+  - js/baidu-tongji.js
+  - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js
+  - js/katex.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 
 
@@ -111,7 +132,15 @@ nav:
     - python: language/_python.md
     - matlab: language/_matlab.md
   - Computer Science:
-    - FDS: cs/fds.md
+    - FDS: 
+      - cs/fds.md
+      - 树: cs/tree.md
+      - 堆: cs/heap.md
+      - 并查集: cs/disjointset.md
+      - 图: cs/graph.md
+      - 排序: cs/sort.md
+      - 哈希: cs/hash.md
+
   - system:
     - system1: system/system1.md
   - tools: 

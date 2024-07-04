@@ -2,6 +2,21 @@ site_name: hzZeng's notebook
 
 theme:
   name: material
+#图标和表情扩展
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - home: index.md
+  - language:
+    - C: language/_c.md
+    - python: language/_python.md
+    - matlab: language/_matlab.md
+  - Computer Science:
+    - FDS: cs/fds.md
+  - system:
+    - system1: system/system1.md
+  - tools: 
+    - git: tools/_git.md

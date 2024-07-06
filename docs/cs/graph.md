@@ -27,6 +27,7 @@
 - 不考虑负边
 ### 广度优先（breadth first）
 从一个顶点开始，先找路径为0的，再找路径为1的（相邻），再找路径为2的（相邻的相邻）······
+
 - **不带权重**
 ```c
 void Unweighted(Table T){
@@ -45,7 +46,9 @@ void Unweighted(Table T){
   }
 }
 ```
+
 - **带权重（dijkstra's algorithm）** 
+  
 1. 把点分为两个集合，一个是已知路径的，记作S，另一个是未知的
 2. 对于未知集合中的u,记distance[u]=smallest path to S
 3. 选定distance最小的u，把它加入S集合中,并更新（**贪心算法**）

@@ -132,6 +132,7 @@ tree* find(int x,tree* tree){
     }
 }
 ```
+
 - 时间复杂度：O(depth)
 #### findmin and findmax
 - 最小的是左子树的左一个叶节点，最大的是右子树最右的一个叶节点
@@ -190,4 +191,5 @@ tree* delete(int x,tree* t){
     return t;
 }
 ``` 
+
 - time complexity=O(depth)

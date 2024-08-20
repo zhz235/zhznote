@@ -128,13 +128,13 @@ nav:
     - matlab: language/_matlab.md
   - Computer Science:
     - FDS: 
-      - cs/fds.md
-      - 树: cs/tree.md
-      - 堆: cs/heap.md
-      - 并查集: cs/disjointset.md
-      - 图: cs/graph.md
-      - 排序: cs/sort.md
-      - 哈希: cs/hash.md
+      - FDS/index.md
+      - 树: FDS/tree.md
+      - 堆: FDS/heap.md
+      - 并查集: FDS/disjointset.md
+      - 图: FDS/graph.md
+      - 排序: FDS/sort.md
+      - 哈希: FDS/hash.md
 
   - system:
     - system1: system/system1.md

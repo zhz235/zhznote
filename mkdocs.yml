@@ -1,5 +1,5 @@
 site_name: Zeng's notebook
-site_url: https://note.zhz235.cc/
+site_url: https://zhz235.github.io/zhznote
 repo_name: zhz235/zhznote
 repo_url: https://github.com/zhz235/zhznote/
 site_description: zhz的笔记本
@@ -28,6 +28,8 @@ theme:
           icon: material/weather-sunny
           name: 切换至日间模式
   features:
+    # 页面底部上一页下一页
+    - navigation.footer
     # 使用 Tab 来进行分类
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs
     - navigation.tabs

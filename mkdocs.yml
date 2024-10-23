@@ -137,8 +137,19 @@ nav:
       - 图: FDS/graph.md
       - 排序: FDS/sort.md
       - 哈希: FDS/hash.md
+    - ADS:
+      - ads/index.md
+      - avltree,splaytree: ads/avl.md
+      - 红黑树: ads/rbtree.md
+      - 左式堆: ads/liftheap.md
+      - 倒排索引: ads/invertindex.md
+      - 二项堆: ads/binomialqueue.md
 
   - system:
-    - system1: system/system1.md
+    - 计算机组成与设计:
+      - co/index.md
+      - introduction: co/introduction.md
+      - process: co/process.md
+     # - arithmetic of computers: co/arithmetic.md 
   - tools: 
     - git: tools/_git.md

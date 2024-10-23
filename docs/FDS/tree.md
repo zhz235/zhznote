@@ -159,9 +159,8 @@ tree* insert(int x,tree* t){
         }else{
             t->left=insert(x,t->left);
         }
-    return t;
     }
-
+    return t;
 }
 ```
 ### 5.3 delete

@@ -144,12 +144,29 @@ nav:
       - 左式堆: ads/liftheap.md
       - 倒排索引: ads/invertindex.md
       - 二项堆: ads/binomialqueue.md
+      - 算法: ads/algorithm.md
+      - np问题: ads/np.md
+    - OOP:
+      - oop/index.md
+      - 基础: oop/intro.md
+      - SLT: oop/slt.md
+    - DB:
+      - DB/index.md
+      - 基础: DB/intro.md
+      - 关系模型: DB/relation.md
+      - SQL: DB/sql.md   
+
 
   - system:
     - 计算机组成与设计:
       - co/index.md
       - introduction: co/introduction.md
-      - process: co/process.md
-     # - arithmetic of computers: co/arithmetic.md 
+      - 处理器: co/process.md
+      - 软件部分基础: co/os.md
+      - 进程: co/processes.md
+      - 调度: co/schedule.md
+      - 同步: co/syn.md
+
+     
   - tools: 
     - git: tools/_git.md

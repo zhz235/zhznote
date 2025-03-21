@@ -188,13 +188,13 @@ load-use hazard:
 
 ### 多发射
 - static multiple issue
-  - **compiler** groups instruction to be issued together
-  - packages them into issue slots
-  - compiler detects and avoid hazard
+    - **compiler** groups instruction to be issued together
+    - packages them into issue slots
+    - compiler detects and avoid hazard
 - dynamic multiple issue
-  - **cpu** examines instruction stream and chooses instruction to issue each cycle
-  - compiler can help by reordering instructions
-  - cpu resolves hazards using advanced techniques at runtime
+    - **cpu** examines instruction stream and chooses instruction to issue each cycle
+    - compiler can help by reordering instructions
+    - cpu resolves hazards using advanced techniques at runtime
 
 **speculation(猜测)**
 
@@ -218,3 +218,7 @@ load-use hazard:
 把流水线阶段做进一步的划分，但时钟周期没有缩短。即在一个时钟周期，指令不是同时发送出去的，而是把这个时钟周期分为n个阶段，每1/n的时间发送一条指令
 
 ![](../img/co/mutipipe.png)
+
+## 线程
+共享的：address space
+不共享：register，pc,栈

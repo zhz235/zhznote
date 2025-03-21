@@ -1,6 +1,6 @@
 # Instruction: Language of Computer
 
-## 
+##  
 Main memory used for composite data
 - arrays,structures,dynamic,data
 - 只有load,store可以访问memory
